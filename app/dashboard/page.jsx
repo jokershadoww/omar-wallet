@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 export default function Dashboard() {
   const router = useRouter();
-  const [balance, setBalance] = useState(69870);
+  const [balance, setBalance] = useState(72500);
   const [toast, setToast] = useState('');
   const [showModal, setShowModal] = useState(false);
   const [code, setCode] = useState('');
